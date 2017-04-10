@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Giorgioshooter/cordova-android-resources.git"
   },
   "author": "Georgios Galatoulas",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Giorgioshooter/cordova-android-resources/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/Giorgioshooter/cordova-android-resources"
 }
