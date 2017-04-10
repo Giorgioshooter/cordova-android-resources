@@ -1,0 +1,23 @@
+{
+  "name": "cordova-android-resources",
+  "version": "1.0.0",
+  "description": "Android resources plugin for Cordova",
+  "main": "index.js",
+  "dependencies": {
+    "elementtree": "^0.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Georgios Galatoulas",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
