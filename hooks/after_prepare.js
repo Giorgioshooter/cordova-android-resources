@@ -12,7 +12,7 @@ module.exports = function (ctx) {
   	var projectRoot = ctx.opts.projectRoot;
 	var configXml = path.join(projectRoot, 'config.xml');
 	var preferences = preferencesParser.parseConfigXml(configXml);
-    var platformRoot = path.join(projectRoot, 'platforms/android');
+    var platformRoot = path.join(projectRoot, 'platforms', 'android');
 
 	var colorsFile = preferences['cordova-android-colors-file'];
 	var stylesFile = preferences['cordova-android-styles-file'];
