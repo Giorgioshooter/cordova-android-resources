@@ -20,14 +20,11 @@ module.exports = function (ctx) {
 	if (!(colorsFile || stylesFile)) {
 		console.error("cordova-android-resources: NO FILES WERE DEFINED");
 		return;
-	}
-	
+	}	
 	var colorsContent = fs.readFileSync(path.join(projectRoot, colorsFile),'utf8');
 	var stylesContent = fs.readFileSync(path.join(projectRoot, stylesFile),'utf8');
-
 	var colorsDestFilePath = path.join(platformRoot, '/res/values/colors.xml');
 	var stylesDestFilePath = path.join(platformRoot, '/res/values/styles.xml');
-
   	fs.writeFileSync(colorsDestFilePath, colorsContent);
   	fs.writeFileSync(stylesDestFilePath, stylesContent);
 };
